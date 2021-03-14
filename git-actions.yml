@@ -10,16 +10,8 @@ jobs:  								# gather all the jobs that run in the workflow
 
       - name: Say Hello World       # Step 2: Type the word 'Hello World'
         run: echo 'Hello World'  	
-<<<<<<< HEAD
-
-      - name: View a file           # Step 3: Two sub-steps involved
-        run: |
-           echo 'Viewing the file: '   
-           cat requirements.txt 
-=======
         
       - name: View a file           # Step 3: Two sub-steps involved
         run: |
            echo 'Viewing the file: '   
            cat requirements.txt 
->>>>>>> b477357ae267c6615221fb7892692b00128f7312
